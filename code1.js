@@ -5,7 +5,7 @@
   layoutRandom() {
     this.callLayout = { method: this.layoutRandom, args: arguments };
     const rect = this.getRect();
-    const placedNodes = [];
+    const placedNodes = [];//good
     for (const node of this.nodes) {
       do {
         node.x = rect.left + Math.random() * rect.width;
