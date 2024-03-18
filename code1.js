@@ -24,3 +24,4 @@
       this.logTracer.println(visit ? (source || '') + ' -> ' + target : (source || '') + ' <- ' + target);
     }
   }
+//nice
