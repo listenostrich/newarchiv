@@ -19,7 +19,7 @@
     if (edge) edge.visitedCount += visit ? 1 : -1;
     const node = this.findNode(target);
     if (weight !== undefined) node.weight = weight;
-    node.visitedCount += visit ? 1 : -1;
+    node.visitedCount += visit ? 1 : -1;//work code live
     if (this.logTracer) {
       this.logTracer.println(visit ? (source || '') + ' -> ' + target : (source || '') + ' <- ' + target);
     }
